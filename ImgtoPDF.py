@@ -1,5 +1,5 @@
-# Ever wanted to conver your images to a PDF file
-# This snippet does the job till you're able to download the PDF
+# Ever wanted to convert your images to a PDF file
+# This snippet does the job able to download the PDF too.
 
 !pip install img2pdf
 
