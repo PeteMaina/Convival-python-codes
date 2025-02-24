@@ -12,7 +12,7 @@ from IPython.display import display, clear_output, HTML
 import math
 
 # Create widgets
-input_widget = widgets.Text(placeholder="Enter expression", disabled=True)  # Input display, read-only
+input_widget = widgets.Text(placeholder="Enter expression", disabled=True)  
 output_widget = widgets.Output()  # Result display
 buttons = [
     '7', '8', '9', '/', 'C',
@@ -28,7 +28,6 @@ grid = widgets.GridBox(
     layout=widgets.Layout(grid_template_columns="repeat(5, 1fr)")
 )
 
-# CSS styling for the calculator
 style = """
 <style>
 .calculator-container {
@@ -62,7 +61,7 @@ style = """
 </style>
 """
 
-# Create a container for the calculator
+#container for the calculator
 calculator_container = widgets.VBox([
     widgets.HTML(style),
     widgets.HBox([input_widget], layout=widgets.Layout(justify_content='center')),
@@ -76,7 +75,7 @@ display(calculator_container)
 # Initialize display value
 display_value = ''
 
-# Function to handle button clicks
+# handle button clicks
 def on_button_click(b):
     global display_value
     button_value = b.description
