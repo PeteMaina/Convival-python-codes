@@ -3,7 +3,7 @@ This repository includes some python codes(fun) that elevates experience.
 
 Some of the files include :
 - Checking the rating of any movies
-- Getting the casts of your favorite movie
+- Getting the casts of your favorite/any movie
 - A password generator 
 - Number guessing game
 - Conversion of images to PDF's
