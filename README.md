@@ -11,10 +11,11 @@ Some of the files include :
 - Beautiful calendar in python
 - An audiobook generator from PDF files
 - A QR code generator
-- Rock,paper,scissors game
+- Rock, paper, scissors game
 - A speedtest checker
 - Code to download youtube videos
 - Checking the rating of any movies with designed UI
+  
 etc...
 
 
