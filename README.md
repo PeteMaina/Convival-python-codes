@@ -1,5 +1,5 @@
 # Convival-python-codes
-This repository includes some python codes that elevates experience. 
+This repository includes some python codes(fun) that elevates experience. 
 
 Some of the files include :
 - Checking the rating of any movies
