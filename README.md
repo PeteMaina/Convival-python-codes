@@ -20,5 +20,5 @@ etc...
 
 
 
-For contacts email me at peterwahomemaina003@gmail.com 
+For contact, email me at peterwahomemaina003@gmail.com 
 Feel fee to leave an issue if necessary 
