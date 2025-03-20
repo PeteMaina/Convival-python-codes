@@ -13,7 +13,7 @@ Some of the files include :
 - A QR code generator
 - Rock, paper, scissors game
 - A speedtest checker
-- Code to download youtube videos
+- Code to download youtube videos with just a link
 - Checking the rating of any movies with designed UI
   
 etc...
