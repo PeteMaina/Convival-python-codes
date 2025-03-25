@@ -1,0 +1,46 @@
+'''
+Had a crazy dream and dont knoww wjat it means?
+The code that helps you out
+
+Onto crafting a model for deeper dream interpretation
+ email me : peterwahomemaina003@gmail.com
+'''
+
+import random
+
+dream_elements = [
+    "Flying over mountains", "Talking to animals", "Meeting an alien", "Finding hidden treasure", "Falling endlessly",
+    "Walking through a mirror", "Time traveling", "Being chased by a shadow", "Living underwater", "Exploring a lost city"
+]
+
+dream_meanings = {
+    "Flying": "You seek freedom or have recently overcome a challenge.",
+    "Talking to animals": "You desire deeper connections with nature or your instincts.",
+    "Meeting an alien": "You feel out of place or are facing something unknown.",
+    "Finding treasure": "A hidden opportunity or potential is coming your way.",
+    "Falling": "You feel like you're losing control over something in life.",
+    "Walking through a mirror": "Self-discovery or exploring unknown aspects of yourself.",
+    "Time traveling": "You are reflecting on past decisions or anxious about the future.",
+    "Being chased": "You might be avoiding something important in your life.",
+    "Living underwater": "You feel emotionally overwhelmed or at peace with your emotions.",
+    "Exploring a lost city": "You have a curiosity about history or lost knowledge."
+}
+
+def generate_dream():
+    return random.choice(dream_elements)
+
+def interpret_dream(dream):
+    for key in dream_meanings:
+        if key.lower() in dream.lower():
+            return dream_meanings[key]
+    return "Your dream is truly unique! It might symbolize something very personal to you."
+
+def main():
+    print("💭 AI Dream Interpreter 💭\n")
+    dream = generate_dream()
+    print(f"🌙 You dreamt about: {dream}\n")
+    meaning = interpret_dream(dream)
+    print(f"🔮 Interpretation: {meaning}\n")
+
+if __name__ == "__main__":
+    main()
