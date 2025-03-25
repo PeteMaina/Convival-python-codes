@@ -1,0 +1,48 @@
+'''
+Keeping track and prediction of the UFO sightings.
+Here is the code for that
+'''
+import random
+import datetime
+
+def generate_ufo_sighting():
+    locations = ["Area 51", "Roswell", "New York", "Tokyo", "Nairobi", "Paris", "Sydney", "Berlin"]
+    shapes = ["Disc", "Triangle", "Cigar", "Orb", "Boomerang", "Chevron", "Unknown"]
+    intensities = ["Low", "Moderate", "High", "Extreme"]
+    
+    sighting = {
+        "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "location": random.choice(locations),
+        "shape": random.choice(shapes),
+        "intensity": random.choice(intensities),
+        "duration_minutes": random.randint(1, 60),
+        "witnesses": random.randint(1, 100)
+    }
+    
+    return sighting
+
+def predict_next_sighting():
+    future_days = random.randint(1, 30)
+    next_date = datetime.datetime.now() + datetime.timedelta(days=future_days)
+    location = random.choice(["Mars", "Moon Base Alpha", "Jupiter Orbit", "Earth - Undisclosed", "International Space Station"])
+    
+    return {
+        "predicted_date": next_date.strftime("%Y-%m-%d %H:%M:%S"),
+        "location": location,
+        "confidence": f"{random.randint(50, 99)}%"
+    }
+
+def main():
+    print("🔭 UFO Sightings Predictor 🔭\n")
+    print("🌌 Generating a random UFO sighting...\n")
+    sighting = generate_ufo_sighting()
+    for key, value in sighting.items():
+        print(f"{key.capitalize()}: {value}")
+    
+    print("\n🚀 Predicting the next UFO sighting...\n")
+    prediction = predict_next_sighting()
+    for key, value in prediction.items():
+        print(f"{key.replace('_', ' ').capitalize()}: {value}")
+
+if __name__ == "__main__":
+    main()
