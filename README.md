@@ -17,6 +17,7 @@ Some of the files include :
 - Checking the rating of any movies with designed UI
 - Tictactoe game
 - python jokes for progrmmers
+- OCR for detecting text in screenshots
   
 etc...
 
