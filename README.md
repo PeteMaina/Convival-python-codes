@@ -1,5 +1,5 @@
 # Convival-python-codes
-This repository includes some python codes. 
+This repository includes some helpful python codes. 
 
 Some of the files include :
 - Checking the rating of any movies
