@@ -1,4 +1,4 @@
-# Convival-python-codes
+# Convival-python-codes.
 This repository includes some helpful python codes. 
 
 Some of the files include :
