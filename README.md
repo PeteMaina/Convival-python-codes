@@ -15,7 +15,7 @@ Some of the files include :
 - A speedtest checker
 - Code to download youtube videos with just a link
 - Checking the rating of any movies with designed UI
-- Tictactoe game
+- Tic tac toe game
 - python jokes for programmers
 - OCR for detecting text in screenshots
   
