@@ -16,7 +16,7 @@ Some of the files include :
 - Code to download youtube videos with just a link
 - Checking the rating of any movies with designed UI
 - Tictactoe game
-- python jokes for progrmmers
+- python jokes for programmers
 - OCR for detecting text in screenshots
   
 etc...
