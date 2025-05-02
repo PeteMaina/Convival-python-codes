@@ -8,7 +8,7 @@ Some of the files include :
 - Number guessing game
 - Conversion of images to PDF's
 - conversion of PDF's to images
-- Beautiful calendar in python
+- calendar in python
 - An audiobook generator from PDF files
 - A QR code generator
 - Rock, paper, scissors game
