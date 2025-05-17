@@ -24,4 +24,4 @@ etc...
 
 
 For contact, email me at peterwahomemaina003@gmail.com 
-Feel fee to open an issue if necessary.
+Feel fee to open an issue.
