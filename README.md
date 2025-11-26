@@ -1,19 +1,19 @@
 # Convival-python-codes
-This repository includes some helpful python codes. 
+This repository includes some random python codes. 
 
-Some of the files include :
-- Checking the rating of any movies
+Some of the file codes include :
+- File to check the rating of any movie
 - Getting the casts of your favorite/any movie
-- A password generator 
+- A strong password generator 
 - Number guessing game
-- Conversion of images to PDF's
-- conversion of PDF's to images
+- source code for Conversion of images to PDF's
+- source code for Conversionconversion of PDF's to images
 - calendar in python
-- An audiobook generator from PDF files
-- A QR code generator
+- An audio generator from PDF files
+- A custom QR code generator
 - Rock, paper, scissors game
-- A speedtest checker
-- Code to download youtube videos with just a link
+- A speedtest internet speed checker
+- Code that allows download youtube videos with just a link
 - Checking the rating of any movies with designed UI
 - Tic tac toe game
 - python jokes for programmers
