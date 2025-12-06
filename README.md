@@ -21,7 +21,7 @@ Some of the file codes include :
   
 etc...
 
-
+206 incomming handy codes
 
 For contact, email me at peterwahomemaina003@gmail.com 
-Feel fee to open an issue.
+for collaborations 
